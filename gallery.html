@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE VAULT GALLERY | IRON PARADISE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Montserrat', sans-serif; background: #050505; color: #ffffff; }
+        header { display: flex; justify-content: space-between; align-items: center; padding: 25px 8%; background: rgba(0, 0, 0, 0.95); border-bottom: 3px solid #ff003c; }
+        .logo { font-size: 1.8rem; font-weight: 900; }
+        .logo span { color: #ff003c; }
+        nav a { color: #ffffff; text-decoration: none; margin-left: 30px; font-size: 0.9rem; font-weight: 700; text-transform: uppercase; }
+        
+        .container { width: 90%; max-width: 1200px; margin: 60px auto; }
+        h1 { font-size: 3.5rem; font-weight: 900; text-align: center; margin-bottom: 20px; }
+        h1 span { color: #ff003c; }
+        .desc { text-align: center; color: #aaaaaa; max-width: 700px; margin: 0 auto 50px auto; font-size: 1.1rem; font-weight: 300; }
+        
+        /* Gallery Grid Setup */
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
+        .gallery-card { border: 2px solid rgba(255,255,255,0.05); border-radius: 6px; overflow: hidden; background: #111; transition: all 0.4s; }
+        .gallery-card:hover { border-color: #ff003c; transform: scale(1.03); }
+        .gallery-card img { width: 100%; height: 350px; object-fit: cover; display: block; filter: grayscale(30%) contrast(110%); transition: 0.5s; }
+        .gallery-card:hover img { filter: grayscale(0%); transform: scale(1.1); }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">IRON <span>PARADISE</span></div>
+        <nav><a href="index.html">Home</a><a href="services.html">Services</a><a href="plans.html">Plans</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></nav>
+    </header>
+
+    <div class="container">
+        <h1 class="animate__animated animate__zoomIn">The <span>Grounds</span></h1>
+        <p class="desc animate__animated animate__zoomIn">Witness the environment where focus meets pure physical execution. Clean, calculated, and elite layouts.</p>
+        
+        <div class="gallery-grid">
+            <!-- 4 High Quality Gym Photos Added -->
+            <div class="gallery-card animate__animated animate__fadeInUp"><img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48" alt="Gym Floor"></div>
+            <div class="gallery-card animate__animated animate__fadeInUp animate__delay-1s"><img src="https://images.unsplash.com/photo-1540206276907-fbd6cd1a28a6" alt="Weight Training"></div>
+            <div class="gallery-card animate__animated animate__fadeInUp animate__delay-2s"><img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd" alt="Cardio Zone"></div>
+            <div class="gallery-card animate__animated animate__fadeInUp animate__delay-3s"><img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61" alt="Dumbbell Rack"></div>
+        </div>
+    </div>
+</body>
+</html>
