@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT & LOCATION | IRON PARADISE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Montserrat', sans-serif; background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('https://images.unsplash.com/photo-1583454110551-21f2fa2afe61'); background-size: cover; background-attachment: fixed; background-position: center; color: #ffffff; }
+        header { display: flex; justify-content: space-between; align-items: center; padding: 25px 8%; background: rgba(0, 0, 0, 0.95); border-bottom: 3px solid #ff003c; }
+        .logo { font-size: 1.8rem; font-weight: 900; }
+        .logo span { color: #ff003c; }
+        nav a { color: #ffffff; text-decoration: none; margin-left: 30px; font-size: 0.9rem; font-weight: 700; text-transform: uppercase; }
+        
+        .container { width: 90%; max-width: 1000px; margin: 60px auto; text-align: center; }
+        h1 { font-size: 3.5rem; font-weight: 900; margin-bottom: 15px; }
+        h1 span { color: #ff003c; }
+        p { color: #cccccc; font-size: 1.1rem; margin-bottom: 40px; font-weight: 300; }
+        
+        .map-frame { border: 4px solid #ff003c; background: #111111; padding: 8px; border-radius: 6px; margin-bottom: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        iframe { display: block; width: 100%; height: 420px; border: 0; filter: grayscale(100%) invert(90%); }
+        
+        .wa-btn { 
+            display: inline-block; 
+            padding: 20px 50px; 
+            background: #ff003c; 
+            color: #ffffff; 
+            text-decoration: none; 
+            font-size: 1rem; 
+            font-weight: 700; 
+            letter-spacing: 2px; 
+            text-transform: uppercase;
+            border-radius: 4px;
+            box-shadow: 0 5px 25px rgba(255, 0, 60, 0.4);
+            transition: 0.3s;
+        }
+        .wa-btn:hover { background: #ffffff; color: #000000; transform: translateY(-3px); }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">IRON <span>PARADISE</span></div>
+        <nav><a href="index.html">Home</a><a href="services.html">Services</a><a href="plans.html">Plans</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></nav>
+    </header>
+
+    <div class="container">
+        <h1 class="animate__animated animate__fadeInDown">Locate <span>The Gym</span></h1>
+        <p class="animate__animated animate__fadeInDown">We are functional 24/7. Find our headquarters or consult our head strategist via instant WhatsApp link.</p>
+        
+        <div class="map-frame animate__animated animate__zoomIn">
+            <!-- Yeh clean Google Map embed structural matrix hai -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500!2d77.1!3d28.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM2JzAwLjAiTiA3N8KwMDYnMDAuMCJF!5e0!3m2!1sen!2sin!4v1!5m2!1sen!2sin" loading="lazy"></iframe>
+        </div>
+        
+        <a href="https://wa.me/919999999999?text=Hello%20Iron%20Paradise!%20I%20am%20ready%20to%20join." class="wa-btn animate__animated animate__fadeInUp">Message On WhatsApp</a>
+    </div>
+</body>
+</html>
