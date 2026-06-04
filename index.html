@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRON PARADISE | THE MECCA OF STRENGTH</title>
+    <!-- Google Fonts & Animate.css Elements Included -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            font-family: 'Montserrat', sans-serif; 
+            background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('watermarked_img_8845503231115934402.png'); 
+            background-size: cover; 
+            background-attachment: fixed; 
+            background-position: center;
+            color: #ffffff; 
+            overflow-x: hidden;
+            line-height: 1.8;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 8%;
+            background: rgba(0, 0, 0, 0.95);
+            border-bottom: 3px solid #ff003c;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo { font-size: 1.8rem; font-weight: 900; letter-spacing: 2px; color: #ffffff; }
+        .logo span { color: #ff003c; }
+        nav a { color: #ffffff; text-decoration: none; margin-left: 30px; font-size: 0.9rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; transition: 0.3s; }
+        nav a:hover { color: #ff003c; }
+        
+        .container { width: 90%; max-width: 1200px; margin: 0 auto; padding: 100px 0; text-align: center; }
+        h1 { font-size: 4.5rem; font-weight: 900; text-transform: uppercase; letter-spacing: 3px; color: #ffffff; margin-bottom: 20px; }
+        h1 span { color: #ff003c; text-shadow: 0 0 15px rgba(255, 0, 60, 0.6); }
+        p { font-size: 1.1rem; color: #dddddd; max-width: 800px; margin: 20px auto 40px auto; font-weight: 300; text-align: justify; text-align-last: center; }
+        
+        .btn { 
+            display: inline-block; 
+            padding: 18px 50px; 
+            background: #ff003c; 
+            color: #ffffff; 
+            text-decoration: none; 
+            font-size: 1rem; 
+            font-weight: 700; 
+            letter-spacing: 2px; 
+            text-transform: uppercase; 
+            border-radius: 4px;
+            transition: all 0.4s; 
+            box-shadow: 0 5px 20px rgba(255, 0, 60, 0.4);
+        }
+        .btn:hover { background: #ffffff; color: #000000; transform: translateY(-3px); box-shadow: 0 8px 25px rgba(255, 255, 255, 0.5); }
+
+        @media (max-width: 768px) {
+            header { flex-direction: column; padding: 15px; gap: 15px; }
+            nav a { margin: 0 10px; font-size: 0.8rem; }
+            h1 { font-size: 2.8rem; }
+            p { font-size: 0.95rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="animate__animated animate__fadeInDown">
+        <div class="logo">IRON <span>PARADISE</span></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="plans.html">Plans</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="animate__animated animate__zoomIn">Forge Your <span>Destiny</span></h1>
+        <p class="animate__animated animate__fadeInUp animate__delay-1s">Welcome to Iron Paradise, where we believe fitness is not just a casual hobby, but a life-long commitment to self-excellence, discipline, and absolute power. Founded on the bedrock of unfiltered dedication, our state-of-the-art facility is systematically designed to provide you with the ultimate atmosphere required to smash through your mental and physical plateaus. We do not tolerate excuses here; we only respect execution and hardcore results.</p>
+        <p class="animate__animated animate__fadeInUp animate__delay-1s">Whether you are an elite athlete aiming to optimize your compound movements and break national powerlifting records, or a beginner stepping onto the gym floor for the first time, our community offers unmatched guidance. We don't just sell gym memberships; we forge elite mentalities.</p>
+        <a href="services.html" class="btn animate__animated animate__pulse animate__infinite animate__slower">Enter the Arena</a>
+    </div>
+</body>
+</html>
